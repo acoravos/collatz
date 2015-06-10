@@ -12,6 +12,7 @@ def collatz_iterative(n) #collatz conjecture
   return output
 end
 
+
 def collatz_recursive(n)
   output = [n]
   return output if n == 1
